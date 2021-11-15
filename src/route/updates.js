@@ -1,19 +1,18 @@
 import React from "react";
 
-class RoutineView extends React.Component {
-
+class ClassLinkView extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <div className="container">
                     <div className="vertical-padding"></div>
                     <div className="vertical-padding"></div>
-                    <h2><i className="bi bi-laptop"></i> Class Routine</h2>
+                    <h2><i className="bi bi-pencil"></i> Continuous Updates</h2>
                     <div className="vertical-padding"></div>
                     <div className="table-responsive">
                         <div className="container">
                             <center>
-                                <iframe width="100%" height="900" title="Class Routine" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSj6-dGlcrUPA5ceUqMmBC7035xo3dA5A5htrwyfihXNm4dRIIjr4TmsMtApnn5khXeBf-WS9DaOoZL/pubhtml?gid=2051215713&single=true"></iframe>
+                                <iframe width="100%" height="600" title="Class Link" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7voOYfpoKawV3ls9R7vWRXPRMBEPXhaFg_4z3i9VKcO9IiKEaLpWqiTuWw7ZoGY0mV2zEuemMro66/pubhtml"></iframe>
                             </center>
                         </div>
                     </div>
@@ -26,4 +25,4 @@ class RoutineView extends React.Component {
     }
 }
 
-export default RoutineView;
+export default ClassLinkView;

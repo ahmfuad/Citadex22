@@ -1,9 +1,9 @@
-import { API_KEY, SHEET_ID, SHEET_BASEURL, CACHE_INTERVAL } from "../config.json";
+import { API_KEY, SHEET_ID, SHEET_BASEURL, CACHE_INTERVAL } from "../myCongif.json";
 import React from "react";
 import axios from "axios";
 
-const range = "A2:B12";
-const sheetName = "files";
+const range = "A2:C99";
+const sheetName = "Files";
 const url = `${SHEET_BASEURL}/${SHEET_ID}/values/${sheetName}!${range}?key=${API_KEY}`;
 
 class FileView extends React.Component {
@@ -45,13 +45,14 @@ class FileView extends React.Component {
                     <div className="container">
                         <div className="vertical-padding"></div>
                         <div className="vertical-padding"></div>
-                        <h2><i className="bi bi-file-earmark-text"></i> Files</h2>
+                        <h2><i className="bi bi-link-45deg"></i> Links</h2>
 
                         <div className="vertical-padding"></div>
                         <div className="table-responsive">
                             <table className="table table-striped">
                                 <thead>
                                     <tr>
+                                        <th scope="col">Tags</th>
                                         <th scope="col">File Name</th>
                                         <th scope="col">Link</th>
                                     </tr>
@@ -62,9 +63,10 @@ class FileView extends React.Component {
                                             return (
                                                 <tr key={index}>
                                                     <td><p>{each[0]}</p></td>
+                                                    <td><p>{each[1]}</p></td>
                                                     <td>
-                                                        <a className="btn btn-primary btn-sm" href={each[1]} target="_blank" rel="noreferrer">
-                                                            Download
+                                                        <a className="btn btn-primary btn-sm" href={each[2]} target="_blank" rel="noreferrer">
+                                                            Visit
                                                         </a>
                                                     </td>
                                                 </tr>

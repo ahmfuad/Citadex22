@@ -7,7 +7,8 @@ import BooksView from "./route/books";
 import DriveView from "./route/drive";
 import RoutineView from "./route/routine";
 import ClassLinkView from "./route/class-link";
-import { MOODLE_IP } from "./config.json";
+import UpdateView from "./route/updates";
+import { MOODLE_IP } from "./myCongif.json";
 
 const rootElement = document.getElementById("root");
 
@@ -17,27 +18,31 @@ ReactDOM.render(
       <div className="container">
 
         <a className="navbar-brand text-white" href="/">
-          <h4>CITAD <i className=" bi bi-explicit"></i> X </h4>
+          <h4>CITAD <i className=" bi bi-explicit"></i> X <span style={{fontSize:'15px'}} >18</span></h4>
         </a>
 
         <ul className="nav nav-pills text-white">
           <li className="nav-item" role="presentation">
             <button className="nav-link active text-white" id="pills-routine-tab" data-bs-toggle="pill" data-bs-target="#pills-routine" type="button" role="tab" aria-controls="pills-routine" aria-selected="true">Routine</button>
           </li>
-          <li className="nav-item" role="presentation">
-            <button className="nav-link text-white" id="pills-class-link-tab" data-bs-toggle="pill" data-bs-target="#pills-class-link" type="button" role="tab" aria-controls="pills-class-link" aria-selected="false">Class Links</button>
-          </li>
+          {/*<li className="nav-item" role="presentation">*/}
+          {/*  <button className="nav-link text-white" id="pills-class-link-tab" data-bs-toggle="pill" data-bs-target="#pills-class-link" type="button" role="tab" aria-controls="pills-class-link" aria-selected="false">Class Links</button>*/}
+          {/*</li>*/}
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-drive-tab" data-bs-toggle="pill" data-bs-target="#pills-drive" type="button" role="tab" aria-controls="pills-drive" aria-selected="false">Drive</button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-update" type="button" role="tab" aria-controls="pills-files" aria-selected="false">Updates</button>
           </li>
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-books-tab" data-bs-toggle="pill" data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books" aria-selected="false">Books</button>
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-files" aria-selected="false">Files</button>
+            <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-files" aria-selected="false">Links</button>
           </li>
+
           <li className="nav-item">
-            <a className="nav-link text-white" type="button" href={MOODLE_IP} target="_blank" rel="noreferrer">Moodle (IP)</a>
+            <a className="nav-link text-white" type="button" href={MOODLE_IP} target="_blank" rel="noreferrer">Moodle</a>
           </li>
         </ul>
       </div>
@@ -59,6 +64,10 @@ ReactDOM.render(
       <div className="tab-pane fade" id="pills-file" role="tabpanel" aria-labelledby="pills-file-tab">
         <FileView/>
       </div>
+      <div className="tab-pane fade" id="pills-update" role="tabpanel" aria-labelledby="pills-update-tab">
+        <UpdateView/>
+      </div>
+
     </div>
   </div>,
 

@@ -1,3 +1,9 @@
 node_modules/
 
 buetcse17/
+
+# Local Netlify folder
+.netlify
+.idea
+build
+netlify.toml

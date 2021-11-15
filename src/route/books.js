@@ -1,8 +1,8 @@
-import { API_KEY, SHEET_ID, SHEET_BASEURL, CACHE_INTERVAL } from "../config.json";
+import { API_KEY, SHEET_ID, SHEET_BASEURL, CACHE_INTERVAL } from "../myCongif.json";
 import React from "react";
 import axios from "axios";
 
-const range = "A2:C99";
+const range = "A2:G99";
 const sheetName = "books";
 const url = `${SHEET_BASEURL}/${SHEET_ID}/values/${sheetName}!${range}?key=${API_KEY}`;
 
@@ -53,19 +53,42 @@ class BooksView extends React.Component {
                                 <thead>
                                     <tr>
                                         <th scope="col">Course</th>
+                                        <th scope="col">Topic</th>
                                         <th scope="col">Book Name</th>
-                                        <th scope="col">Link</th>
+                                        <th scope="col">Author Name</th>
+                                        <th scope="col">Remarks</th>
+                                        <th scope="col">Book</th>
+                                        <th scope="col">Solution</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {
                                         booksData.map((each, index) => {
+
+                                            let classNameBook,classNameSolution;
+                                            if( each[5] )
+                                                classNameBook = "btn btn-success btn-sm";
+                                            else
+                                                classNameBook = "btn btn-secondary btn-sm disables";
+
+                                            if( each[6] )
+                                                classNameSolution = "btn btn-success btn-sm";
+                                            else
+                                                classNameSolution = "btn btn-secondary btn-sm disables";
                                             return (
                                                 <tr key={index}>
                                                     <td><b>{each[0]}</b></td>
                                                     <td>{each[1]}</td>
+                                                    <td>{each[2]}</td>
+                                                    <td>{each[3]}</td>
+                                                    <td>{each[4]}</td>
                                                     <td>
-                                                        <a className="btn btn-primary btn-sm" href={each[2]} target="_blank" rel="noreferrer">
+                                                        <a  className={classNameBook} href={each[5]} target="_blank" rel="noreferrer">
+                                                            Download
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a  className={classNameSolution} href={each[6]} target="_blank" rel="noreferrer">
                                                             Download
                                                         </a>
                                                     </td>

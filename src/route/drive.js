@@ -1,5 +1,5 @@
 import React from "react";
-import { DRIVE_LINK } from "../config.json";
+import { DRIVE_LINK } from "../myCongif.json";
 
 const DriveView = () => {
     return (
@@ -7,11 +7,11 @@ const DriveView = () => {
             <div className="container">
                 <div className="vertical-padding"></div>
                 <div className="vertical-padding"></div>
-                <h2><i className="bi bi-hdd-fill"></i> Drive</h2>
+                <h2><i className="bi bi-hdd"></i> Drive</h2>
 
                 <div className="vertical-padding"></div>
                 <div className="table-responsive">
-                    <table className="table table-striped">
+                    <table className="table table-striped" style={{textAlign:'center'}}>
                         <thead>
                             <tr>
                                 <th scope="col"><h5>Level & Term</h5></th>
