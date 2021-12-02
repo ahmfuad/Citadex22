@@ -1,0 +1,6 @@
+.rbc-agenda-time-cell{
+    display: none;
+}
+.rbc-header:nth-last-of-type(2){
+    display: none;
+}

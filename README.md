@@ -81,3 +81,9 @@ the structure is
 The `GET` request format is structured in this way:
 ```https://sheets.googleapis.com/v4/spreadsheets/SHEETS_ID/values/SHEET_NAME?key=GOOGLE_API_KEY```
 
+### Note to self
+To deploy
+```
+npm run build
+netlify deploy --prod
+```
