@@ -1,13 +1,21 @@
 ## Citadex 18
 Citadex 18 is a simple portal for showing notices, classes, files etc. in a single place. This app was built using React and Google Sheets API. 
 
-The structure is taken from  **[buetcse17.github.io](https://github.com/buetcse17/buetcse17.github.io)**  named as Citadex. Some more wrapper was put over it. And will add some new features soon.
+The structure is taken from  **[buetcse17.github.io](https://github.com/buetcse17/buetcse17.github.io)**  named as Citadex. Some more wrapper was put over it. 
 
 ## Features
+
+#### Announcements
+
+Add announcements, see and filter by tags
 
 #### Routine
 
 HTML view of routine made by **Jehadul Karim Sabit**.
+
+#### CT, Assignments and lab reports
+
+Published google sheet view of ct assignment dates
 
 #### Drive
 
@@ -15,7 +23,7 @@ Drive links of our batch and our senior batchs
 
 #### Updates
 
-Continuous class updates written by **Mashiyat Mahjabin Prapty**.
+Currently hidden, but you can use it by uncommenting the lines
 
 #### Books
 
@@ -24,7 +32,6 @@ Download books and solution manuals of the current term.
 #### Links
 
 All necessary files and links of this term gathered together.
-
 
 
 ## Structure
@@ -43,7 +50,7 @@ All necessary files and links of this term gathered together.
     - App.js
     - index.js
     - index.css
-    - config.json
+    - **config.json**
 
 - public
     - index.html
@@ -61,6 +68,10 @@ the structure is
     "SHEET_ID": YOUR_SHEET_ID,
     "SHEET_BASEURL": YOUR_SHEET_BASE_URL,
     "API_KEY": YOUR_GOOGLE_API_KEY,
+
+    "CT_URL": "",
+    "SEC_A_ROUTINE":"",
+    "SEC_B_ROUTINE":"",
 
     "DRIVE_LINK": [
         {
@@ -81,8 +92,17 @@ the structure is
 The `GET` request format is structured in this way:
 ```https://sheets.googleapis.com/v4/spreadsheets/SHEETS_ID/values/SHEET_NAME?key=GOOGLE_API_KEY```
 
-### Note to self
-To deploy
+## Configuring the sheet
+
+## Getting the google api key
+
+## Running locally
+
+## Hosting in netlify
+
+
+### Deployment
+To deploy after any change
 ```
 npm run build
 netlify deploy --prod

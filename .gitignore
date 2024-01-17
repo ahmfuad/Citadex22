@@ -5,6 +5,7 @@ buetcse17/
 # Local Netlify folder
 .netlify
 .idea
+.vscode
 build
 netlify.toml
 src/myCongif.json

@@ -1,7 +1,7 @@
 {
-  "name": "citadex-web",
-  "homepage": "http://buetcse17.github.io/",
-  "version": "0.1.0",
+  "name": "citadex-18",
+  "homepage": "https://citadex18.netlify.app/",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "axios": "^0.24.0",
