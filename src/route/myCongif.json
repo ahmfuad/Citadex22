@@ -2,13 +2,13 @@
     "CACHE_INTERVAL": 30000,
     "CACHE_COMMENT": " ^ this is in milliseconds",
 
-    "SHEET_ID": "1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0",
+    "SHEET_ID": "1I4XU2PaCWPmq7CFe33E4gXr-HSkXCGSYvMUx2NaiB3I",
     "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
-    "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
+    "API_KEY": "AIzaSyD7xY3-2fp7MdaV4HV6VHjNnRd9k77fo00",
 
     "CT_URL": "",
-    "SEC_A_ROUTINE":"",
-    "SEC_B_ROUTINE":"",
+    "SEC_A_ROUTINE":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1489068265&single=true",
+    "SEC_B_ROUTINE":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=984800713&single=true",
 
     "DRIVE_LINK": [
         {
