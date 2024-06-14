@@ -1,0 +1,25 @@
+{
+    "CACHE_INTERVAL": 30000,
+    "CACHE_COMMENT": " ^ this is in milliseconds",
+
+    "SHEET_ID": "1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0",
+    "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
+    "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
+
+    "CT_URL": "",
+    "SEC_A_ROUTINE":"",
+    "SEC_B_ROUTINE":"",
+
+    "DRIVE_LINK": [
+        {
+            "name": "3-1",
+            "link": "https://drive.google.com/drive/folders/1UhQBQ-OBj_iZbtyFnG_S3rM-AXx9uvSY?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/1Oo2TapOaPe7S1jFYrccDowvze9wwqt8x?usp=sharing"
+        },
+        {
+            "name": "3-2",
+            "link": "https://drive.google.com/drive/folders/1YWVpCBFEIxGZo2eibGeIVjmn23fr5z2N?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/1z4w_gNbP53B3PWmrFPu8qdplbqqyb3Jo?usp=sharing"
+        }
+    ]
+}
