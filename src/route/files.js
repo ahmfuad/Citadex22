@@ -45,7 +45,7 @@ class FileView extends React.Component {
                     <div className="container">
                         <div className="vertical-padding"></div>
                         <div className="vertical-padding"></div>
-                        <h2><i className="bi bi-link-45deg"></i> Links</h2>
+                        <h2><i className="bi bi-link-45deg"></i> Files</h2>
 
                         <div className="vertical-padding"></div>
                         <div className="table-responsive">

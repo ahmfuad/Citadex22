@@ -1,7 +1,7 @@
-## Citadex 18
-Citadex 18 is a simple portal for showing notices, classes, files etc. in a single place. This app was built using React and Google Sheets API. 
+## Citadex 22
+Citadex 22 is a simple portal for showing notices, classes, files etc. in a single place. This app was built using React and Google Sheets API. 
 
-The structure is taken from  **[buetcse17.github.io](https://github.com/buetcse17/buetcse17.github.io)**  named as Citadex. Some more wrapper was put over it. 
+The structure is taken from  **[buetcse17.github.io](https://github.com/buetcse17/buetcse17.github.io) and [Citadex18](https://github.com/TamimEhsan/Citadex18)**  named as Citadex.
 
 ## Features
 
@@ -50,13 +50,13 @@ All necessary files and links of this term gathered together.
     - App.js
     - index.js
     - index.css
-    - **config.json**
+    - **myCongif.json**
 
 - public
     - index.html
     - favicon
 ```
-The `config.json` contains some necessary keys. This is gitignored for safety purposes. It should be in the folder `src/route` along side books.js, class-link.js etc
+The `myCongif.json` contains some necessary keys. This is gitignored for safety purposes. It should be in the folder `src/route` along side books.js, class-link.js etc
 
 the structure is
 
@@ -92,17 +92,25 @@ the structure is
 The `GET` request format is structured in this way:
 ```https://sheets.googleapis.com/v4/spreadsheets/SHEETS_ID/values/SHEET_NAME?key=GOOGLE_API_KEY```
 
-## Configuring the sheet
 
-## Getting the google api key
+Next you need to:
 
-## Running locally
+- Configure the sheet
 
-## Hosting in netlify
+- Get the google api key
 
+- Deploy
+
+### Running locally
+
+```
+npm install -g serve
+npm run build
+serve -s build
+```
 
 ### Deployment
-To deploy after any change
+To deploy after any change in netlify
 ```
 npm run build
 netlify deploy --prod

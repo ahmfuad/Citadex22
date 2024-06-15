@@ -1,6 +1,6 @@
 import React from "react";
 
-import {SEC_A_ROUTINE,SEC_B_ROUTINE} from '../myCongif.json'
+import {SEC_A_ROUTINE,SEC_B_ROUTINE,SEC_C_ROUTINE} from '../myCongif.json'
 
 class RoutineView extends React.Component {
 
@@ -14,16 +14,22 @@ class RoutineView extends React.Component {
                     <div className="vertical-padding"></div>
                     <div className="table-responsive">
                         <ul className="nav nav-pills text-white bg-dark row p-1">
-                            <li className="nav-item col-6 d-grid gap-2" role="presentation">
+                            <li className="nav-item col-sm d-grid gap-3" role="presentation">
                                 <button className="nav-link active text-white" id="pills-secA-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-secA" type="button" role="tab" aria-controls="pills-secA"
                                         aria-selected="false">Section A
                                 </button>
                             </li>
-                            <li className="nav-item col-6 d-grid gap-2" role="presentation">
+                            <li className="nav-item col-sm d-grid gap-3" role="presentation">
                                 <button className="nav-link text-white" id="pills-secB-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-secB" type="button" role="tab" aria-controls="pills-secB"
                                         aria-selected="false">Section B
+                                </button>
+                            </li>
+                            <li className="nav-item col-sm d-grid gap-3" role="presentation">
+                                <button className="nav-link text-white" id="pills-secC-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-secC" type="button" role="tab" aria-controls="pills-secC"
+                                        aria-selected="false">Section C
                                 </button>
                             </li>
                         </ul>
@@ -40,7 +46,12 @@ class RoutineView extends React.Component {
                                     <iframe width="100%" height="900" title="Class Routine" src={SEC_B_ROUTINE}></iframe>
                                 </center>
                             </div>
-
+                            <div className="tab-pane fade show" id="pills-secC" role="tabpanel"
+                                 aria-labelledby="pills-secC-tab">
+                                <center>
+                                    <iframe width="100%" height="900" title="Class Routine" src={SEC_C_ROUTINE}></iframe>
+                                </center>
+                            </div>
                         </div>
                     </div>
                     <div className="vertical-padding"></div>

@@ -12,7 +12,7 @@ class AnnouncementView extends React.Component {
     state = { annoucementsData: [], ready: false,tags:[],selected:[] };
 
     fetchData = () => {
-        console.log(url);
+        // console.log(url);
         axios.get(url)
             .then(data => {
                 if( data.data.values !== undefined )

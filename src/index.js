@@ -20,7 +20,7 @@ ReactDOM.render(
             <div className="container">
 
                 <a className="navbar-brand text-white" href="/">
-                    <h4>CITAD <i className=" bi bi-explicit"></i> X <span style={{fontSize: '15px'}}>18</span></h4>
+                    <h4>CITAD <i className=" bi bi-explicit"></i> X <span style={{fontSize: '15px'}}>22</span></h4>
                 </a>
 
                 <ul className="nav nav-pills text-white">
@@ -53,16 +53,16 @@ ReactDOM.render(
                     {/*  <button className="nav-link text-white" id="pills-class-link-tab" data-bs-toggle="pill" data-bs-target="#pills-class-link" type="button" role="tab" aria-controls="pills-class-link" aria-selected="false">Class Links</button>*/}
                     {/*</li>*/}
 
-                    {/*<li className="nav-item" role="presentation">*/}
-                    {/*    <button className="nav-link text-white" id="pills-update-tab" data-bs-toggle="pill"*/}
-                    {/*            data-bs-target="#pills-update" type="button" role="tab" aria-controls="pills-files"*/}
-                    {/*            aria-selected="false">Weekly Updates*/}
-                    {/*    </button>*/}
-                    {/*</li>*/}
+                    {/* <li className="nav-item" role="presentation">
+                    <button className="nav-link text-white" id="pills-update-tab" data-bs-toggle="pill"
+                             data-bs-target="#pills-update" type="button" role="tab" aria-controls="pills-files"
+                                aria-selected="false">Weekly Updates
+                        </button>
+                    </li> */}
                     <li className="nav-item" role="presentation">
                         <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-files"
-                                aria-selected="false">Links
+                                aria-selected="false">Files
                         </button>
                     </li>
                     <li className="nav-item" role="presentation">
@@ -119,11 +119,11 @@ ReactDOM.render(
             </div>
         </div>
 
-        <div className="views">
+        {/* <div className="views">
     <span className="views">
         <img src="https://visitor-badge.glitch.me/badge?page_id=citadex18" alt="Views"/>
     </span>
-        </div>
+        </div> */}
     </div>,
 
     rootElement
