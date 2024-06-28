@@ -9,7 +9,7 @@ The structure is taken from  **[buetcse17.github.io](https://github.com/buetcse1
 
 Add announcements, see and filter by tags
 
-#### Routine
+#### Detailed Routine
 
 HTML view of routine made by **Jehadul Karim Sabit**.
 
@@ -32,6 +32,12 @@ Download books and solution manuals of the current term.
 #### Links
 
 All necessary files and links of this term gathered together.
+
+#### Student Info
+All Students' information
+
+#### Teacher Info
+All course teachers' Information
 
 
 ## Structure
@@ -56,7 +62,7 @@ All necessary files and links of this term gathered together.
     - index.html
     - favicon
 ```
-The `myCongif.json` contains some necessary keys. This is gitignored for safety purposes. It should be in the folder `src/route` along side books.js, class-link.js etc
+The `myCongif.json` contains some necessary keys. This is gitignored for safety purposes. It should be in the folder `src/` along side books.js, class-link.js etc
 
 the structure is
 
@@ -65,27 +71,33 @@ the structure is
     "CACHE_INTERVAL": 30000,
     "CACHE_COMMENT": " ^ this is in milliseconds",
 
-    "SHEET_ID": YOUR_SHEET_ID,
-    "SHEET_BASEURL": YOUR_SHEET_BASE_URL,
-    "API_KEY": YOUR_GOOGLE_API_KEY,
+    "SHEET_ID": "",
+    "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
+    "API_KEY": "",
 
     "CT_URL": "",
-    "SEC_A_ROUTINE":"",
-    "SEC_B_ROUTINE":"",
+    "SMALL_ROUTINE_A": "",
+    "SMALL_ROUTINE_B": "",
+    "SMALL_ROUTINE_C": "",
+    
+    "SEC_A_ROUTINE": "",
+    "SEC_B_ROUTINE": "",
+    "SEC_C_ROUTINE": "",
 
-    "DRIVE_LINK": [
-        {
-            "name": "1-1",
-            "link": SOME_LINKS,
-            "senior_link": SOME_LINKS
-        },
-        {
-            "name": "1-2",
-            "link": SOME_LINKS,
-            "senior_link": SOME_LINKS
-        },
-    ]
+    "SEC_A_STUDENTS": "",
+    "SEC_B_STUDENTS": "",
+    "SEC_C_STUDENTS": "",
+
+    "SEC_A_TEACHERS": "",
+    "SEC_B_TEACHERS": "",
+    "SEC_C_TEACHERS": "",
+
+    "EXAMS_SEC_A": "",
+    "EXAMS_SEC_B": "",
+    "EXAMS_SEC_C": "",
+    
 }
+
 ```
 
 ## The API Call
