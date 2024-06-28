@@ -3,10 +3,10 @@ import React from "react";
 import axios from "axios";
 
 const range = "A2:C99";
-const sheetName = "Files";
+const sheetName = "Links";
 const url = `${SHEET_BASEURL}/${SHEET_ID}/values/${sheetName}!${range}?key=${API_KEY}`;
 
-class FileView extends React.Component {
+class LinkView extends React.Component {
 
     state = { filesData: [], ready: false };
 
@@ -86,4 +86,4 @@ class FileView extends React.Component {
 }
 
 
-export default FileView;
+export default LinkView;

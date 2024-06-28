@@ -7,11 +7,32 @@
     "API_KEY": "AIzaSyD7xY3-2fp7MdaV4HV6VHjNnRd9k77fo00",
 
     "CT_URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=433386865&single=true",
+    "SMALL_ROUTINE_A" :"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1065634363&single=true",
+    "SMALL_ROUTINE_B" :"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1589934114&single=true",
+    "SMALL_ROUTINE_C" :"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=854541642&single=true",
+    
     "SEC_A_ROUTINE":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1489068265&single=true",
     "SEC_B_ROUTINE":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=163812710&single=true",
     "SEC_C_ROUTINE":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=267547569&single=true",
 
+    "SEC_A_STUDENTS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=168041181&single=true",
+    "SEC_B_STUDENTS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1620800446&single=true",
+    "SEC_C_STUDENTS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=2128965739&single=true",
+
+    "SEC_A_TEACHERS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1361774973&single=true",
+    "SEC_B_TEACHERS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1280955846&single=true",
+    "SEC_C_TEACHERS":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1480633124&single=true",
+
+    "EXAMS_SEC_A": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1473363679&single=true",
+    "EXAMS_SEC_B": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=41374645&single=true",
+    "EXAMS_SEC_C": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=383743080&single=true",
+
     "DRIVE_LINK": [
+        {
+            "name": "1-2",
+            "link": "",
+            "senior_link": "https://drive.google.com/drive/folders/16gEra_JzB-yi2lt34Kc_I8njIXbcqk9W"
+        },
         {
             "name": "1-1",
             "link": "https://drive.google.com/drive/folders/1FsPPwVv8nRmWu_dvX8yfoeie4VR9NpkQ?usp=sharing",

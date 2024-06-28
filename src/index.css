@@ -35,3 +35,17 @@ code {
 .navbar-light .navbar-nav .nav-link {
   color: red;
 }
+
+.logo{
+  margin-top: 1px;
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+    margin-top: 3px;
+  }
+}
+.views{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
