@@ -1,3 +1,4 @@
+![](https://github.com/ahmfuad/Citadex22/blob/main/public/BUETCSE22.png)
 ## Citadex 22
 Citadex 22 is a simple portal for showing notices, classes, files etc. in a single place. This app was built using React and Google Sheets API. 
 
