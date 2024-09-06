@@ -77,7 +77,7 @@ ReactDOM.render(
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-link-tab" data-bs-toggle="pill"
               data-bs-target="#pills-link" type="button" role="tab" aria-controls="pills-link"
-              aria-selected="false">Links
+              aria-selected="false">Files
             </button>
           </li>
           <li className="nav-item" role="presentation">
@@ -86,14 +86,15 @@ ReactDOM.render(
               aria-selected="false">Drive
             </button>
           </li>
+          {/* Not Using for now but usable 
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-books-tab" data-bs-toggle="pill"
               data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books"
               aria-selected="false">Books
             </button>
-          </li>
+          </li> */}
           <li className="nav-item">
-            <a className="nav-link text-white" type="button" href="https://moodle.cse.buet.ac.bd/"
+            <a className="nav-link text-white" type="button" href="https://cse.buet.ac.bd/moodle/"
               target="_blank" rel="noreferrer">Moodle</a>
           </li>
         </ul>
@@ -143,7 +144,7 @@ ReactDOM.render(
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-link-tab" data-bs-toggle="pill"
               data-bs-target="#pills-link" type="button" role="tab" aria-controls="pills-link"
-              aria-selected="false">Links
+              aria-selected="false">Files
             </button>
           </li>
           <li className="nav-item" role="presentation">
@@ -152,12 +153,13 @@ ReactDOM.render(
               aria-selected="false">Drive
             </button>
           </li>
+          {/* Not used but can be used later 
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-books-tab" data-bs-toggle="pill"
               data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books"
               aria-selected="false">Books
             </button>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className="nav-link text-white" type="button" href="https://moodle.cse.buet.ac.bd/"
               target="_blank" rel="noreferrer">Moodle</a>
@@ -202,11 +204,6 @@ ReactDOM.render(
     </div>
   </div>
 
-        {/* <div className="views">
-    <span className="views">
-        <img src="https://visitor-badge.glitch.me/badge?page_id=citadex18" alt="Views"/>
-    </span>
-        </div> */}
       <div className="views"><span className="views"><a href="https://hits.sh/buetcse22.netlify.app/"><img alt="Hits" src="https://hits.sh/buetcse22.netlify.app.svg"/></a></span></div>
     </div>,
 

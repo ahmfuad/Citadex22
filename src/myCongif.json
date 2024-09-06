@@ -25,18 +25,6 @@
 
     "EXAMS_SEC_A": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=1473363679&single=true",
     "EXAMS_SEC_B": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=41374645&single=true",
-    "EXAMS_SEC_C": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=383743080&single=true",
-
-    "DRIVE_LINK": [
-        {
-            "name": "1-2",
-            "link": "",
-            "senior_link": "https://drive.google.com/drive/folders/16gEra_JzB-yi2lt34Kc_I8njIXbcqk9W"
-        },
-        {
-            "name": "1-1",
-            "link": "https://drive.google.com/drive/folders/1FsPPwVv8nRmWu_dvX8yfoeie4VR9NpkQ?usp=sharing",
-            "senior_link": "https://drive.google.com/drive/folders/1qMdCUEi7SGfxIcDs8klQe_ECuvPljZoR"
-        }
-    ]
+    "EXAMS_SEC_C": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoOqJKnGTfG1lGKXx9mbVKK0rZasqybHW-Rjubs_G24zMnucPpVLDNlprcowXhTye4XL9Mq2fqW_w/pubhtml?gid=383743080&single=true"
+    
 }

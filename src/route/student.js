@@ -3,7 +3,7 @@ import React from "react";
 import axios from "axios";
 import {SEC_A_STUDENTS, SEC_B_STUDENTS, SEC_C_STUDENTS} from '../myCongif.json'
 
-const range = "A2:G99";
+const range = "A2:H99";
 const sheetNameA = "Students: Sec A";
 const sheetNameB = "Students: Sec B";
 const sheetNameC = "Students: Sec C";
@@ -110,8 +110,9 @@ class StudentView extends React.Component {
                                                 <th scope="col">ID</th>
                                                 <th scope="col">Name</th>
                                                 <th scope="col">Email</th>
-                                                <th scope="col">Phone Number</th>
                                                 <th scope="col">Facebook ID</th>
+                                                <th scope="col">Blood Group</th>
+                                                <th scope="col">Hall</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -129,13 +130,14 @@ class StudentView extends React.Component {
                                                     <td>{each[0]}</td>
                                                     <td><b>{each[1]}</b></td>
                                                     <td>{each[2]}</td>
-                                                    <td>{each[3]}</td>
                                                     
                                                     <td>
                                                         <a  className={classNameBook} href={each[4]} target="_blank" rel="noreferrer">
-                                                            Link
+                                                           Profile
                                                         </a>
                                                     </td>
+                                                    <td>{each[6]}</td>
+                                                    <td>{each[7]}</td>
                                                 </tr>
                                             )
                                         })
@@ -158,8 +160,9 @@ class StudentView extends React.Component {
                                                 <th scope="col">ID</th>
                                                 <th scope="col">Name</th>
                                                 <th scope="col">Email</th>
-                                                <th scope="col">Phone Number</th>
                                                 <th scope="col">Facebook ID</th>
+                                                <th scope="col">Blood Group</th>
+                                                <th scope="col">Hall</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -177,13 +180,13 @@ class StudentView extends React.Component {
                                                     <td>{each[0]}</td>
                                                     <td><b>{each[1]}</b></td>
                                                     <td>{each[2]}</td>
-                                                    <td>{each[3]}</td>
-                                                    
                                                     <td>
                                                         <a  className={classNameBook} href={each[4]} target="_blank" rel="noreferrer">
-                                                            Link
+                                                            Profile
                                                         </a>
                                                     </td>
+                                                    <td>{each[6]}</td>
+                                                    <td>{each[7]}</td>
                                                 </tr>
                                             )
                                         })
@@ -202,8 +205,9 @@ class StudentView extends React.Component {
                                                 <th scope="col">ID</th>
                                                 <th scope="col">Name</th>
                                                 <th scope="col">Email</th>
-                                                <th scope="col">Phone Number</th>
                                                 <th scope="col">Facebook ID</th>
+                                                <th scope="col">Blood Group</th>
+                                                <th scope="col">Hall</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -221,13 +225,14 @@ class StudentView extends React.Component {
                                                     <td>{each[0]}</td>
                                                     <td><b>{each[1]}</b></td>
                                                     <td>{each[2]}</td>
-                                                    <td>{each[3]}</td>
                                                     
                                                     <td>
                                                         <a  className={classNameBook} href={each[4]} target="_blank" rel="noreferrer">
-                                                            Link
+                                                            Profile
                                                         </a>
                                                     </td>
+                                                    <td>{each[6]}</td>
+                                                    <td>{each[7]}</td>
                                                 </tr>
                                             )
                                         })

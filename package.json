@@ -1,7 +1,7 @@
 {
-  "name": "BUET CSE 22",
+  "name": "buetcse22",
   "homepage": "https://buetcse22.netlify.app/",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "dependencies": {
     "axios": "^0.24.0",
